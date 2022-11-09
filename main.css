@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+header {
+    font-family: verdana;
+    background-color: rgb(29, 150, 35);
+}
+
+h1, h2 {
+    font-family: verdana;
+    text-align: center;
+    background-color: rgb(29, 150, 35);
+}
+
+nav ul {
+    font-family: verdana;
+    background-color: white;
+}
+
+section {
+    
+    font-family: verdana;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+footer {
+    
+    font-family: verdana;
+    background-color: darkred;
+}
