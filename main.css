@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    font-family: verdana;
+    background-color: rgb(29, 150, 35);
+}
+
+h1, h2 {
+    font-family: verdana;
+    text-align: center;
+    background-color: rgb(29, 150, 35);
+}
+
+nav > ul {
+    font-family: verdana;
+    background-color: none;
+    list-style-type: none;
+    padding-left: 5px;
+    line-height: 2em;
+    width: 100%;
+    overflow: auto;
+}
+
+nav > ul > li.menu {
+    margin-top: none;
+    float: none;
+    text-decoration: none;
+    width: 33%;
+    background-color: rgb(29, 150, 35);
+}
+
+.menu a:hover {
+    background-color: rgb(5, 78, 5);
+}
+
+.menu a {
+    float: left;
+    padding: 0px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    width: 33%;
+    text-align: center;
+}
+
+li.menu {
+    display: inline;
+    text-align: center;
+}
+
+section {
+    font-family: verdana;
+    font-size: 18px;
+    background-color: whitesmoke;
+}
+
+footer {
+    
+    font-family: verdana;
+    background-color: darkred;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear:both
+}
+
+#aboutMe {
+    height: 300px;
+    background-color: gray;
+    width: 75%;
+}
+
+#freeTime {
+    height: 300px;
+    width: 25%;
+}
+
+#edGoals {
+    height: 425px;
+    background-color: gray;
+    width: 62%;
+}
+
+#bballPic {
+    height: 425px;
+    width: 38%;
+}
+
+#cCollege {
+    width: 75%;
+    background-color: gray;
+    height: 375px;
+}
+
+#falcon {
+    height: 375px;
+    width: 25%;
+}
+
+p {
+    text-align: center;
+}
+
+body > div > section > img {
+    display: block;
+    width: 100%;
+}
+
+div.row {
+    text-align: center;
+}
+  
+ol.myol {
+    display: inline-block;
+    text-align: left;
+}
+
+#bballPic > img {
+    height: fit-content;
+}
+
+#falcon > img {
+    height: fit-content;
+}
+
+#name {
+    background-color: darkgreen;
+}
